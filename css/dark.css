@@ -49,6 +49,24 @@ body {
     color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+  background: #fff;
+}
+
+.navbar-nav a[href] {
+  color: #000;
+}
+
+.navbar-nav a:hover{
+  color: #000;
+}
+
+ .navbar-nav a[href] span {
+    color: #000;
+ }
+}
+
 a {
   text-decoration: underline;
   color: #f7f7f7;
@@ -332,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .inf-nav-toggle.active i::before, .inf-nav-toggle.active i::after {
-  background: #6699ff;
+  background: #fff;
 }
 .inf-nav-toggle:hover, .inf-nav-toggle:focus, .inf-nav-toggle:active {
   outline: none;
@@ -355,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   width: 25px;
   height: 3px;
-  background: #6699ff;
+  background: #fff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
