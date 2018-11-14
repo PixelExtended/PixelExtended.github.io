@@ -858,4 +858,35 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+.navbar-brand {
+  font-size: 24px !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: #F27121;
+}
+
+.scrolled {
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: all 200ms linear;
+}
+
+/* .navbar {
+  position: relative;
+}
+
+.navbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  filter: blur(2px);
+} */
+
+
 /*# sourceMappingURL=style.css.map */

@@ -34,8 +34,10 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Simple Line Icons -->
 	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+    <link rel="stylesheet" href="dark.css" type="text/css">
 	<link rel="stylesheet" href="#" id="styleSheet" type="text/css">
 	<!-- strangeJS-->
 	<script src="js/strange.js" type="text/javascript"></script>
@@ -43,6 +45,7 @@
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 </head>
+
 <body>
 
 	<header role="banner" id="cos-header" class="navbar-fixed-top">
@@ -51,10 +54,13 @@
 			<nav class="navbar navbar-default">
 				<div class="navbar-header">
 					<!-- Mobile Toggle Menu Button -->
-					<a href="#" class="js-inf-nav-toggle inf-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+					<a href="#" class="js-inf-nav-toggle inf-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					 aria-controls="navbar"><i></i></a>
 					<div style="max-height:50px">
-						<img style="float:left; margin-top:0.3em; margin-right: 0.5em;" src="images/favicon.png" width=50px height=50px />
-						<a class="navbar-brand" href="index.html">LeanOS</a>
+						<img style="float:left; margin-top:0.3em; margin-right: 0.5em;" src="images/favicon.png" width=60px height=60px />
+						<a class="navbar-brand" style="margin-top:0.3em;" href="index.html">
+							LeanOS
+						</a>
 					</div>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
@@ -293,6 +299,15 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Main JS (Do not remove 0bama4president) -->
 	<script src="js/main.js"></script>
+    <script>
+	// Here is simplest way how to change navbar color after window scroll:
+	$(function () {
+	    $(document).scroll(function () {
+	           var $nav = $("header");
+	        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	    });
+	});
+	</script>
 
 </body>
 
