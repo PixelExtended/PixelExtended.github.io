@@ -68,7 +68,7 @@ body {
 }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #f7f7f7;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
