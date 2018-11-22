@@ -5,13 +5,13 @@ function getLink(codename) {
 }
 function linkFetch(device) {
     var deviceCodename = device, directLink;
-    var link = "https://raw.githubusercontent.com/Cosmic-OS/platform_vendor_ota/pulsar-release/" + device + ".xml";
+    var link = "https://raw.githubusercontent.com/LeanOS-Project/platform_vendor_ota/lean-9.x/" + device + ".xml";
     $.ajax({
         url: link,
         type: 'get',
         success: function (response) {
             var $doc = $.parseXML(response);
-            $data = ($($doc).find('DirectUrl').text());
+            $data = ($($doc).find('HttpUrl').text());
             directLink = $data;
             $('#' + deviceCodename).attr('href', $data);
         },
