@@ -163,6 +163,11 @@ a.text-white-link:active {
 	box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
 }
 
+/* Wrap buttons text for small screens */
+.btn {
+  white-space: normal;
+}
+
 /* Black hrefs & hrs too */
 .href-black {
 	color: #000000;
