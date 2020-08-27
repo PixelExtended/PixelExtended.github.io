@@ -181,7 +181,7 @@ a.text-white-link:active {
 	flex-wrap: wrap;
 }
 
-/* 	Add border to the images on the "Fun Stuff" section 
+/* 	Add border to the images on the "Fun Stuff" section
 		https://www.w3schools.com/csS/css3_images.asp
 */
 .images-border {
@@ -198,4 +198,13 @@ a.text-white-link:active {
 .RtnRed {
 	color: #E61231 !important;
 	font-weight: bold;
+}
+
+/* Pixel Extended Logo */
+.navbar-logo {
+  height: 48px;
+}
+
+.intro {
+  margin-top: 75px;
 }
