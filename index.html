@@ -268,46 +268,41 @@
                         <!-- Attempting to avoid spam by removing @ and the dot in my domain -->
                         Want to maintain? Contact us</h2>
                     <hr class="light primary">
-                    <p class="pt-4" style="font-family: 'Poppins', sans-serif; font-size: 1.2em;">If you want to maintain This ROM for your device, you can send us your email (including device, trees and how to contact you) using the form below.</p>
-
-                    <!-- Really avoiding spam by sending emails to the spam box
-               Docs URL: https://formspree.io/
-               Also, Bootstrap forms: https://getbootstrap.com/docs/3.3/css/#forms -->
-                    <form action="https://formspree.io/xpzyeglz" method="POST" class="form-horizontal" role="form">
-                        <!-- Need a name, reply to email, and a message -->
-                        <div class="form-group pt-4">
-                            <input type="text" name="name" placeholder="Your name" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="email" placeholder="Your email" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" placeholder="Your device/trees/Telegram ID" class="form-control" required></textarea>
-                        </div>
-                        <!-- Hidden elements here -->
-                        <input type="hidden" name="_subject" value="New email from Contact Me Form!" class="form-control">
-                        <input type="hidden" name="_next" value="thanks.html" />
-                        <!-- Submit button -->
-                        <div class="form-group pt-4">
-                            <input type="submit" value="Submit" class="btn btn-black btn-xl">
-                        </div>
-                    </form>
+                    <p class="pt-4" style="font-family: 'Poppins', sans-serif; font-size: 1.2em;">If you want to maintain this ROM for your device, you can send your contact information clicking the button below.</p>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-lg-12 text-center pt-5">
-                    <p style="font-family: 'Poppins', sans-serif;">You can also visit our GitHub Sources</p>
-                </div>
+            <div class="text-center">
+                <a class="btn btn-black btn-xl" style="white-space: normal" href="https://docs.google.com/forms/d/e/1FAIpQLScLH2gdeB6FzkOXTrYbBdzReLGgNiD5GiYrMesHLFt8SFDMlw/viewform" target="_blank">
+                    Maintainership Application Form
+                </a>
             </div>
 
             <!-- Email, LinkedIn, and GitHub links -->
-            <div class="center">
-                <div class="text-center pt-2">
-                    <a href="https://github.com/PixelExtended" target="_blank">
-                        <i class="fa fa-github fa-4x sr-icons text-white"></i>
-                    </a>
-                    <p class="mb-0"><a href="https://github.com/PixelExtended" target="_blank" class="text-white">GitHub</a></p>
+            <div class="row text-center pt-5">
+                <div class="text-center ml-auto mr-0">
+                    <p>
+                        <a href="https://t.me/pixelextended" target="_blank">
+                            <i class="fa fa-telegram fa-3x sr-icons text-white"></i>                    
+                        </a>
+                    </p>
+                    <p><a href="https://t.me/pixelextended" target="_blank" class="text-white">Support</a></p>
+                </div>
+                <div class="text-center ml-4 mr-4">
+                    <p>
+                        <a href="https://github.com/PixelExtended" target="_blank">
+                            <i class="fa fa-github fa-3x sr-icons text-white"></i>                    
+                        </a>
+                    </p>
+                    <p><a href="https://github.com/PixelExtended" target="_blank" class="text-white">Source</a></p>
+                </div>
+                <div class="text-center ml-0 mr-auto">
+                    <p>
+                        <a href="https://t.me/pexupdates" target="_blank">
+                            <i class="fa fa-telegram fa-3x sr-icons text-white"></i>                    
+                        </a>
+                    </p>
+                    <p><a href="https://t.me/pexupdates" target="_blank" class="text-white">Channel</a></p>
                 </div>
             </div>
         </div>
