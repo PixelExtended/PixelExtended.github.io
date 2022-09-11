@@ -172,10 +172,12 @@ a.text-white-link:active {
         color: #fff;
         background-color: #4285f4 !important;
 }
+
 .btn-blue:active, .btn-blue:focus, .btn-blue:hover {
-        color: #fff;
-        background-color: #4285e4 !important;
+  color: #fff;
+  background-color: #4285e4 !important;
 }
+
 .btn-blue:active, .btn-blue:focus {
         box-shadow:0 0 0 .2rem rgba(240,95,64,.5)!important;
 }
@@ -187,6 +189,40 @@ a.text-white-link:active {
 .hr-black {
 	border-color: #000000;
 	color: #000000;
+}
+
+.btn2 {
+  border-radius: 50px;
+  border-style: initial;
+  border-width: 0;
+  box-shadow: rgba(25, 25, 25, .04) 0 0 1px 0, rgba(0, 0, 0, .1) 0 3px 4px 0;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  height: 50px;
+  padding: 0 25px;
+}
+
+.demo-btn {
+  background-color: #c2fbd7;
+  color: green;
+  cursor: pointer;
+  display: none;
+  transition: all 200ms;
+}
+
+@media screen and (min-width: 1024px) {
+  .demo-btn {
+    display: inline-block;
+  }
+}
+
+.btn2 svg {
+  margin-right: .5em;
+}
+
+.demo-btn:hover {
+  background-color: #afe6c3;
+  transform: scale(1.05);
 }
 
 
