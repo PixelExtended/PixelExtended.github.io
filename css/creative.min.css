@@ -280,3 +280,12 @@ header.masthead p {
 .btn-extended:hover {
     color: #ff3232;
 }
+
+.btn-ss{
+    background-color: #eff7cf;
+    border-color: #f05f40;
+    color: #2cbc63;
+}
+.btn-ss:hover {
+    color: #2cbc63;
+}
