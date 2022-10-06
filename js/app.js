@@ -16,7 +16,7 @@ const palatte = [
     "#fff", "#0F9D58", "#4285F4", "#F4B400", "#DB4437", "#000"
 ]
 const options = {
-    threshold: 0.7,
+    threshold: 0.3,
 };
 
 let observer = new IntersectionObserver(navCheck, options);
@@ -24,7 +24,6 @@ let observer = new IntersectionObserver(navCheck, options);
 function navCheck(entries) {
     entries.forEach((entry) => {
         const className = entry.target.id;
-        console.log(className);
         var activeAnchor = document.querySelector(`[data-page=${className}]`);
 
         const gradientIndex = entry.target.getAttribute("data-index");
