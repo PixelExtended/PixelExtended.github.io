@@ -3,15 +3,9 @@ const sections = document.querySelectorAll("section");
 
 const bubble = document.querySelector(".bubble");
 
-const gradient = [
-    "linear-gradient(to bottom, #0F9D58, #0F9D58)",
 
-    "linear-gradient(to bottom, #4285F4,#4285F4)",
+const icons = document.querySelectorAll('.pe')
 
-    "linear-gradient(to bottom,#F4B400, #F4B400 )",
-    "linear-gradient(to bottom,#DB4437, #DB4437 )",
-    "linear-gradient(to bottom,#000, #000 )",
-];
 const palatte = [
     "#fff", "#0F9D58", "#4285F4", "#F4B400", "#DB4437", "#000"
 ]
@@ -50,6 +44,11 @@ function navCheck(entries) {
             bubble.style.setProperty("height", `${directions.height}px`);
 
             bubble.style.background = palatte[gradientIndex];
+
+            icons.forEach((icon, index) => {
+                icon.setAttribute("fill", gradientIndex == 0 ? '#000' : palatte[gradientIndex])
+            })
+
         }
     });
 }
@@ -57,3 +56,5 @@ function navCheck(entries) {
 sections.forEach((section) => {
     observer.observe(section);
 });
+
+
