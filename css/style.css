@@ -241,6 +241,11 @@ code {
         margin:auto !important;
         padding: 10px 0;
     }
+
+    .page4 .mbr-end {
+        float:none;
+        overflow:hidden;
+    }
 }
 
 /*************************/
@@ -273,6 +278,18 @@ code {
 
 .page5 .btn {
     width:300px !important;
+}
+
+zero-md {
+    background-color:rgba(255,255,255,0.6);
+    box-shadow:0 0 15px 15px rgba(255,255,255,0.6);
+    border-radius: 999px;
+}
+
+@media only screen and (max-width:1368px) {
+    zero-md {
+        border-radius:0;
+    }
 }
 
 /*************************/
