@@ -290,7 +290,7 @@ code {
 zero-md {
     background-color:rgba(255,255,255,0.6);
     box-shadow:0 0 15px 15px rgba(255,255,255,0.6);
-    border-radius: 999px;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width:1368px) {
