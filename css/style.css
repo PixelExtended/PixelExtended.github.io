@@ -118,6 +118,9 @@ code {
     .credit {
         overflow:hidden;
     }
+    .back {
+        display:none !important;
+    }
 }
 
 /*************************/
