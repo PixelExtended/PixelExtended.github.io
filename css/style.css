@@ -99,7 +99,6 @@ code {
     width:100% !important;
 }
 .page1 .page_container h1{
-    background:url('../img/pex-logo.png') no-repeat center;
     background-size:contain;
     float:none !important;
     text-align: center !important;
@@ -112,9 +111,12 @@ code {
 }
 
 @media only screen and (max-width:1368px) {
-    .page1 .page_container h2 {
+    .page1 .page_container h2, .credit {
         background-color:rgba(255,255,255,0.6) !important;
         box-shadow: 0 0 20px 20px rgba(255,255,255,0.6);
+    }
+    .credit {
+        overflow:hidden;
     }
 }
 
@@ -178,6 +180,7 @@ code {
 
 .main section.page4 .page_container {
     width:100% !important;
+    margin-top:100px !important;
 }
 
 .page4 .page_container {
@@ -233,18 +236,22 @@ code {
 
 @media only screen and (max-width:500px) {
     .page4 .team {
-        width:312px;
+        width:332px;
         margin:auto !important;
+        overflow:hidden;
     }
 
     .page4 .member {
-        margin:auto !important;
+        margin: 10px 5px auto !important;
         padding: 10px 0;
     }
 
     .page4 .mbr-end {
         float:none;
         overflow:hidden;
+        margin: auto !important;
+        position: relative;
+        top:10px;
     }
 }
 
@@ -358,4 +365,10 @@ zero-md {
     float:none !important;
     width:100% !important;
     margin:10px 0px;
+}
+
+@media only screen and (max-width:500px) {
+    .page7 .btns a {
+        margin:10px !important;
+    }
 }
