@@ -24,6 +24,10 @@ html, body {
     padding:0 20px 0 0;
 }
 
+.sidebar ul a {
+    text-decoration: none;
+}
+
 .sidebar li {
     padding:20px;
     border-radius:10px;
@@ -201,5 +205,9 @@ html, body {
       }
       .main {
         width:100% !important;
+        min-width:auto;
+      }
+      .grid {
+        width:auto !important;
       }
 }

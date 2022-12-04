@@ -92,6 +92,7 @@
 .lity-content {
   z-index: 9993;
   width: 100%;
+  height: 100%;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   -o-transform: scale(1);
@@ -179,11 +180,12 @@
 .lity-iframe .lity-container {
   width: 100%;
   max-width: 1350px;
+  height:80%;
 }
 
 .lity-iframe-container {
   width: 100%;
-  height: 0;
+  height: 100%;
   padding-top: 56.25%;
   overflow: auto;
   pointer-events: auto;
