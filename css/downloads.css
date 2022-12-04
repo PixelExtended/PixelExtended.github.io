@@ -24,8 +24,8 @@ html, body {
     padding:0 20px 0 0;
 }
 
-.sidebar ul a {
-    text-decoration: none;
+#menu__box a {
+    text-decoration: none !important;
 }
 
 .sidebar li {
