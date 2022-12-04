@@ -116,6 +116,11 @@ html, body {
     padding: 21px 0;
 }
 
+.dev-details a {
+    text-decoration: none;
+    color:white;
+}
+
 .dev-details h4 {
     line-height: 16px;
 }
