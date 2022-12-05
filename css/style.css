@@ -306,6 +306,12 @@ zero-md {
     }
 }
 
+iframe {
+    width:100%;
+    max-width:1350px;
+    height:100%;
+}
+
 /*************************/
 /*                       */
 /*        Page 6         */
