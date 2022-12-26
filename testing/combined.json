@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/beyond0lte/PixelExtended-5.2_beyond0lte-13.0-20221211-1430-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy S10e",
+    "device": "beyond0lte"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/d2s/PixelExtended-5.2_d2s-13.0-20221211-1554-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy Note10+",
+    "device": "d2s"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/d2x/PixelExtended-5.2_d2x-13.0-20221211-1611-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy Note10+ 5G",
+    "device": "d2x"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/beyondx/PixelExtended-5.2_beyondx-13.0-20221211-1520-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy S10 5G",
+    "device": "beyondx"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/chime/PixelExtended-5.2_chime-13.0-20221210-1146-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "kiranpranay",
+    "device_name": "POCO M3 / Redmi 9T / Redmi 9 Power / Redmi Note 9 4G",
+    "device": "chime"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/d1/PixelExtended-5.2_d1-13.0-20221211-1537-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy Note10",
+    "device": "d1"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/beyond1lte/PixelExtended-5.2_beyond1lte-13.0-20221211-1447-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy S10",
+    "device": "beyond1lte"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/beyond2lte/PixelExtended-5.2_beyond2lte-13.0-20221211-1503-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "Jubscleisson",
+    "device_name": "Galaxy S10+",
+    "device": "beyond2lte"
+  },
+  {
+    "url": "https://sourceforge.net/projects/pixelextended/files/lemonade/PixelExtended-5.2_lemonade-13.0-20221209-1425-OFFICIAL.zip/download",
+    "pexv": "5.2",
+    "tg_username": "ralf979 & delano_tg",
+    "device_name": "OnePlus 9",
+    "device": "lemonade"
+  }
+]

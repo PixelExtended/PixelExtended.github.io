@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <head>
+        <title>Downloads - PixelExtended</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="search">
+                <h1>Downloads</h1>
+            </div>
+            <ul class="list">
+                <a href="#oneplus" onclick="oneplus()"><li class="list-item" id="oneplus">
+                    <h1>OnePlus</h1>
+                    <p>lemonade etc</p>
+                </li></a>
+                <a href="#samsung" onclick="samsung()"><li class="list-item" id="samsung">
+                    <h1>Samsung</h1>
+                    <p>beyond0lte,d2s etc</p>
+                </li></a>
+                <a href="#xiaomi" onclick="xiaomi()"><li class="list-item" id="xiaomi">
+                    <h1>Xiaomi</h1>
+                    <p>raphael,onclite etc</p>
+                </li></a>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <h1 id="heading"></h1>
+            </div>
+            <div class="device-list">
+                <div class="device">
+                    <div id="data"></div>
+                </div>
+            </div>
+        </div>
+        <script src="dataLoad.js"></script>
+    </body>
+</html>
