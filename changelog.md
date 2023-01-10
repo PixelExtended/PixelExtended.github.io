@@ -1,20 +1,11 @@
 # Changelog
 
-# V5.2 (25.11.2022) Rain Month !
+# V5.4 (10.01.2023) Happy New Year!!!
 
-  - November Security Patch
-  - Full ROM Rebased on latest PE+
-  - Black Theme
-  - Live Display
-  - Face Unlock
-  - Clock Customizations
-  - Brightness Sliding Control
-  - Brightness Slider Position
-  - Brightness Slider in QQS
-  - UDFPS Animation
-  - UDFPS Icon Picker
-  - UDFPS Custom Icon
-  - Fixed Screen Off UDFPS
-  - Per-app Volume Control
-  - Reorganized Gestures Settings in PEXtension
-  - Reorganized Button Settings in PEXtension
+  - Total Source Rebase
+  - January patches
+  - Reticker
+  - Wi-Fi auto turn off
+  - Bluetooth auto turn off 
+  - Introduce refresh rate tile 
+  - Nuke for now Volte & VoWifi Icons
